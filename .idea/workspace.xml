@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf85992b-961a-4bc0-8007-10ae88700ca3" name="Changes" comment="" />
+    <list default="true" id="bf85992b-961a-4bc0-8007-10ae88700ca3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +30,65 @@
     <commands />
     <urls />
   </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000000000604" />
+      <entry key="S5" value="1.0000051597846942" />
+      <entry key="S10" value="1.0023385206743765" />
+      <entry key="S30" value="1.2369379090321868" />
+      <entry key="S60" value="2.103751325627978" />
+      <entry key="M2" value="3.915144936779347" />
+      <entry key="M5" value="7.488343113505745" />
+      <entry key="M10" value="10.018972916956303" />
+      <entry key="M15" value="11.146494343035835" />
+      <entry key="M30" value="12.461613495077367" />
+      <entry key="H1" value="13.20062407957554" />
+      <entry key="H2" value="13.704337500412105" />
+      <entry key="H4" value="16.341805128007167" />
+      <entry key="D1" value="48.414066781376874" />
+      <entry key="W1" value="67.83501271777568" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="2.8965348E-316" />
+      <entry key="M2" value="1.7019223574963337E-158" />
+      <entry key="M5" value="7.858221777365596E-64" />
+      <entry key="M10" value="3.1885210673214535E-32" />
+      <entry key="M15" value="1.2799872953968767E-21" />
+      <entry key="M30" value="6.312794490650634E-11" />
+      <entry key="H1" value="1.5422347031799228E-5" />
+      <entry key="H2" value="0.007800119318100261" />
+      <entry key="H4" value="0.17634669565808567" />
+      <entry key="D1" value="2.3769254923300553" />
+      <entry key="W1" value="3.713347853398742" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.11422893127867505" />
+      <entry key="MS500" value="0.6479704827166668" />
+      <entry key="S2" value="0.8971990512819478" />
+      <entry key="S5" value="0.9575420082699994" />
+      <entry key="S10" value="0.980857724844564" />
+      <entry key="S30" value="1.2261624278399117" />
+      <entry key="S60" value="2.088382639150973" />
+      <entry key="M2" value="3.893370519631759" />
+      <entry key="M5" value="7.464989984978218" />
+      <entry key="M10" value="10.001497850048425" />
+      <entry key="M15" value="11.133066080463516" />
+      <entry key="M30" value="12.453846928534754" />
+      <entry key="H1" value="13.196457534955746" />
+      <entry key="H2" value="13.709950673861485" />
+      <entry key="H4" value="16.516856705420878" />
+      <entry key="D1" value="50.79037346466862" />
+      <entry key="W1" value="71.54823720402682" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5,
   &quot;fromUser&quot;: false
@@ -38,6 +100,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ScannerExample.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -46,7 +109,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/robertwiggins/Documents/learn/java/java-getting-started",
+    "last_opened_file_path": "/Users/robertwiggins/Documents/learn/java/java-getting-started/src/main/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
@@ -54,9 +117,34 @@
     "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "editor.preferences.completion.popup"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ScannerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.single_file_source_code_programs.ScannerExample" />
+      <module name="getting-started" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.single_file_source_code_programs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ScannerExample" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
