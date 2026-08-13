@@ -14,11 +14,11 @@ public class RoadBike extends Bicycle{
         this.setTireWidth(newTireWidth);
     }
 
-    public int getTireWidth(){
+    public int getTireWidth() {
         return this.tireWidth;
     }
 
-    public void setTireWidth(int newTireWidth){
+    public void setTireWidth(int newTireWidth) {
         this.tireWidth = newTireWidth;
     }
 

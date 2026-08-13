@@ -37,7 +37,7 @@ public class Bicycle {
         cadence = newValue;
     }
 
-    public int getGear(){
+    public int getGear() {
         return gear;
     }
 
