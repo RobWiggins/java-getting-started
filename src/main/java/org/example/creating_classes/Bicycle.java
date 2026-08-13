@@ -56,4 +56,10 @@ public class Bicycle {
     public void speedUp(int increment) {
         speed += increment;
     }
+
+    public void printDescription() {
+        IO.println("\nBike is " + "in gear " + this.gear
+                + " with a cadence of " + this.cadence +
+                " and travelling at a speed of " + this.speed + ". ");
+    }
 }

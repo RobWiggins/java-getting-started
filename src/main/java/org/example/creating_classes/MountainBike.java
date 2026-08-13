@@ -1,23 +1,24 @@
 package org.example.creating_classes;
 
-//import creating_classes.Bicycle
-
 public class MountainBike extends Bicycle {
+    private String suspension;
 
-    // the MountainBike subclass has
-    // one field
-    public int seatHeight;
-
-    // the MountainBike subclass has
-    // one constructor
-    public MountainBike(int startHeight, int startCadence, int startSpeed, int startGear) {
+    public MountainBike(int startCadence, int startSpeed, int startGear, String suspensionType) {
         super(startCadence, startSpeed, startGear);
-        seatHeight = startHeight;
+        this.setSuspension(suspensionType);
     }
 
-    // the MountainBike subclass has
-    // one method
-    public void setHeight(int newValue) {
-        seatHeight = newValue;
+    public String getSuspension(){
+        return this.suspension;
     }
-}
+
+    public void setSuspension(String suspensionType) {
+        this.suspension = suspensionType;
+    }
+
+    public void printDescription() {
+        super.printDescription();
+        IO.println("The " + "MountainBike has a" +
+                getSuspension() + " suspension.");
+    }
+}}
