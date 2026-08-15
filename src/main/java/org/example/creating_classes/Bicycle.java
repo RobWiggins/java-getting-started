@@ -11,9 +11,7 @@ public class Bicycle {
     private static int numberOfBicycles = 0;
 
 
-    public Bicycle(int startCadence,
-                   int startSpeed,
-                   int startGear) {
+    public Bicycle(int startCadence, int startSpeed, int startGear) {
         gear = startGear;
         cadence = startCadence;
         speed = startSpeed;
